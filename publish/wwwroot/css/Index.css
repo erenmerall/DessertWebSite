@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-top: -100px;
+    color: #ff5900;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
+
+.wave {
+    margin-left: -130px;
+    position: relative;
+    width: 116%;
+    height: 730px;
+    background-color: #0f0f0f;
+    clip-path: path("M 0 250 Q 300 200 600 250 T 1200 250 T 1800 250 V 600 H 0 Z");
+    z-index: 10;
+    margin-top: -21%;
+}
+
+.wave2 {
+    transform: rotate(180deg);
+    margin-top: -300px;
+    position: relative;
+    z-index: 1;
+}
+
+.wave img {
+    height: 400px;
+    position: absolute;
+    right: 150px;
+    margin-top: 250px;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+.logo-animation {
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -300px;
+    padding: 20px;
+    z-index: 30;
+}
+
+.text-section {
+    font-family: 'Helvetica Neue', sans-serif;
+    max-width: 600px;
+    margin-right: 20px;
+    color: white;
+    margin-top: -60px;
+
+}
+
+.text-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #626262;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.smart-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #ff9a00, #e85d00);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.smart-button .button-text {
+    margin-right: 10px;
+}
+
+.smart-button .button-icon {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.smart-button:hover {
+    background: linear-gradient(135deg, #e85d00, #ff9a00);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.smart-button:hover .button-icon {
+    transform: translateX(5px);
+}
+
+.smart-button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+}
+
+.smart-button:hover:before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+/*! mobil cihazlar */
+@media (max-width: 767px) {
+    .content-mobile {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40%;
+    }
+
+    .content-mobile-text {
+        flex: 1;
+        width: 100%;
+        margin-left: 250%;
+        margin-top: 30%;
+    }
+
+    .content-mobile-text h1 {
+        font-family: 'Playfair Display', serif;
+        color: #ff5900;
+    }
+
+    .content-mobile-text p {
+        font-family: 'Helvetica Neue', sans-serif;
+        color: #626262;
+    }
+
+    .content-mobile-img {
+        flex: 1;
+        text-align: center;
+        width: 100%;
+        margin-top: -60%;
+        margin-left: 60%;
+    }
+
+    .content-mobile .content-mobile-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .wave {
+        display: none;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .about {
+        margin-left: 50%;
+    }
+}
+
+
+/*! ipad mini */
+@media (min-width: 768px) and (max-width: 819px) {
+    .content-mobile {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40%;
+    }
+
+    .content-mobile-text {
+        flex: 1;
+        width: 100%;
+        margin-left: 350%;
+        margin-top: 30%;
+    }
+
+    .content-mobile-text h1 {
+        font-family: 'Playfair Display', serif;
+        color: #ff5900;
+    }
+
+    .content-mobile-text p {
+        font-family: 'Helvetica Neue', sans-serif;
+        color: #626262;
+    }
+
+    .content-mobile-img {
+        flex: 1;
+        text-align: center;
+        width: 100%;
+        margin-top: -60%;
+        margin-left: 130%;
+    }
+
+    .content-mobile .content-mobile-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .wave {
+        display: none;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .about {
+        margin-left: 60%;
+    }
+
+    .menu{
+        margin-left: 130%;
+    }
+}
+
+/*! ipad air */
+@media (min-width: 820px) and (max-width: 1023px) {
+    .menu-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wave {
+        height: 700px;
+        width: 130%;
+    }
+
+    .text-section h1 {
+        margin-top: 30%;
+        font-size: 30px;
+    }
+
+    .wave img {
+        display: flex;
+        justify-content: center;
+        right: 30%;
+        height: 40%;
+    }
+
+    .content-mobile {
+        display: none;
+    }
+}
+
+/*! ipad pro ve daha büyükler */
+@media (min-width: 1024px) and (max-width: 2000px) {
+    .wave img {
+        top: 10%;
+        right: 5%;
+        height: 40%;
+    }
+
+    .wave {
+        height: 700px;
+        width: 120%;
+    }
+
+    .content-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+C:\Projects\WebProjects\BalMutfak\publish\BalMutfak.exe
+C:\Projects\WebProjects\BalMutfak\publish\appsettings.Development.json
+C:\Projects\WebProjects\BalMutfak\publish\appsettings.json
+C:\Projects\WebProjects\BalMutfak\publish\BalMutfak.dll
+C:\Projects\WebProjects\BalMutfak\publish\BalMutfak.deps.json
+C:\Projects\WebProjects\BalMutfak\publish\BalMutfak.runtimeconfig.json
+C:\Projects\WebProjects\BalMutfak\publish\BalMutfak.pdb

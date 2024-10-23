@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ECf3XBinopzgg7uBdTKl/4ztwyei1AMHe3so21KZsUo=",
+  "Hash": "SCGmjfzp/JSJrcLFU5g3dh7rQs5DUAM1C0HG/8M8Kf8=",
   "Source": "BalMutfak",
   "BasePath": "_content/BalMutfak",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "C:\\Projects\\WebProjects\\BalMutfak\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BalMutfak.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\About.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\About.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/About.css",
+      "RelativePath": "css/Home/About.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\About.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home\\About.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Catalog.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Catalog.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/Catalog.css",
+      "RelativePath": "css/Home/Catalog.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Catalog.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home\\Catalog.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Communication.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Communication.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/Communication.css",
+      "RelativePath": "css/Home/Communication.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Communication.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home\\Communication.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\footer.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Index.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/footer.css",
+      "RelativePath": "css/Home/Index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\footer.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home\\Index.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Index.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\SearchResult.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/Index.css",
+      "RelativePath": "css/Home/SearchResult.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Index.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home\\SearchResult.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\navbar.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Support.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/navbar.css",
+      "RelativePath": "css/Home/Support.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\navbar.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home\\Support.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\SearchResult.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\UserComments.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/SearchResult.css",
+      "RelativePath": "css/Home/UserComments.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\SearchResult.css"
+      "OriginalItemSpec": "wwwroot\\css\\Home\\UserComments.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Shared\\footer.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/Shared/footer.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\Shared\\footer.css"
     },
     {
-      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Support.css",
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Shared\\navbar.css",
       "SourceId": "BalMutfak",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
       "BasePath": "_content/BalMutfak",
-      "RelativePath": "css/Support.css",
+      "RelativePath": "css/Shared/navbar.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,7 +223,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Support.css"
+      "OriginalItemSpec": "wwwroot\\css\\Shared\\navbar.css"
+    },
+    {
+      "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Shared\\site.css",
+      "SourceId": "BalMutfak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\",
+      "BasePath": "_content/BalMutfak",
+      "RelativePath": "css/Shared/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Shared\\site.css"
     },
     {
       "Identity": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\favicon.ico",

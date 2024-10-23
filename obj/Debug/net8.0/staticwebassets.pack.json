@@ -5,40 +5,44 @@
       "PackagePath": "staticwebassets\\BalMutfak.bundle.scp.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\About.css",
-      "PackagePath": "staticwebassets\\css\\About.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\About.css",
+      "PackagePath": "staticwebassets\\css\\Home\\About.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Catalog.css",
-      "PackagePath": "staticwebassets\\css\\Catalog.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Catalog.css",
+      "PackagePath": "staticwebassets\\css\\Home\\Catalog.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Communication.css",
-      "PackagePath": "staticwebassets\\css\\Communication.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Communication.css",
+      "PackagePath": "staticwebassets\\css\\Home\\Communication.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Index.css",
-      "PackagePath": "staticwebassets\\css\\Index.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Home\\Index.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\SearchResult.css",
-      "PackagePath": "staticwebassets\\css\\SearchResult.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\SearchResult.css",
+      "PackagePath": "staticwebassets\\css\\Home\\SearchResult.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Support.css",
-      "PackagePath": "staticwebassets\\css\\Support.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\Support.css",
+      "PackagePath": "staticwebassets\\css\\Home\\Support.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\footer.css",
-      "PackagePath": "staticwebassets\\css\\footer.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Home\\UserComments.css",
+      "PackagePath": "staticwebassets\\css\\Home\\UserComments.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\navbar.css",
-      "PackagePath": "staticwebassets\\css\\navbar.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Shared\\footer.css",
+      "PackagePath": "staticwebassets\\css\\Shared\\footer.css"
     },
     {
-      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Shared\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\Shared\\navbar.css"
+    },
+    {
+      "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\css\\Shared\\site.css",
+      "PackagePath": "staticwebassets\\css\\Shared\\site.css"
     },
     {
       "Id": "C:\\Projects\\WebProjects\\BalMutfak\\wwwroot\\favicon.ico",

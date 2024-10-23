@@ -1,0 +1,114 @@
+.custom-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card .card-body {
+    padding: 1.5rem;
+}
+
+.custom-card .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ff5900;
+    font-family: 'Playfair Display', serif;
+}
+
+.custom-card p {
+    color: #626262;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+.minimal-footer {
+    position: fixed;
+}
+
+a {
+    color: #ff5900;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+header {
+    color: #626262;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+
+    h1,
+    .lead {
+        width: 150vw;
+        margin-left: 120vw;
+        font-size: 30px;
+    }
+
+    .custom-card {
+        width: 150vw;
+        margin-left: 120vw;
+    }
+
+    .custom-card p {
+        font-size: 40px;
+    }
+
+    .sizedbox {
+        width: auto;
+    }
+
+    .minimal-footer {
+        position: fixed;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 819px) {
+
+    h1,
+    .lead {
+        width: 150vw;
+        margin-left: 110vw;
+        font-size: 60px;
+    }
+
+    .custom-card {
+        width: 180vw;
+        margin-left: 75vw;
+        height: auto;
+    }
+
+    .custom-card p {
+        font-size: 60px;
+    }
+
+    .sizedbox {
+        width: auto;
+        height: 1110px;
+    }
+
+    .minimal-footer {
+        position: fixed;
+    }
+}
+
+@media (max-width: 1024px) {
+    .minimal-footer {
+        position: fixed;
+    }
+}

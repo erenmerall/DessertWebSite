@@ -1,8 +1,8 @@
-﻿@model List<BalMutfak.Models.Product>
+﻿@model BalMutfak.ViewModels.HomeViewModel
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" href="~/css/Index.css">
+<link rel="stylesheet" href="~/css//Home/Index.css">
 
 
 <div class="wave">
@@ -44,11 +44,15 @@
     <center>
         <h2 class="title">Menü</h2>
     </center>
-    @await Html.PartialAsync("_Catalog", Model)
+    @await Html.PartialAsync("_Catalog", Model.Products)
 </div>
 
 <div id="about" class="about">
     @await Html.PartialAsync("_About")
+</div>
+
+<div id="usercomments" class="usercomments">
+    @await Html.PartialAsync("_UserComments", Model.Customers)
 </div>
 
 <div id="communication" class="communication">

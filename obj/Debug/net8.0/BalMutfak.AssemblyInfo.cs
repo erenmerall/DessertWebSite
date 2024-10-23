@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BalMutfak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edbc8165bf8c6aa8546747344c38e5b67f7bad03")]
 [assembly: System.Reflection.AssemblyProductAttribute("BalMutfak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BalMutfak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

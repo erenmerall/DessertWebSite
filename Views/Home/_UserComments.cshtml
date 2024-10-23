@@ -1,0 +1,15 @@
+@model List<BalMutfak.Models.Customers>
+
+<link rel="stylesheet" href="~/css//Home/UserComments.css">
+
+<div class="full">
+    <h3 style="color: #ff5900; text-align: center;">Müşterilerimiz</h3>
+    @foreach (var customer in Model)
+    {
+        <div class="row">
+            <div class="col comment-card">
+                <h3>@customer.CustomerName</h3>
+            </div>
+        </div>
+    }
+</div>

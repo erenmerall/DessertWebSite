@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="~/css/SearchResult.css">
+<link rel="stylesheet" href="~/css//Home/SearchResult.css">
 
 @model List<BalMutfak.Models.Product>
 
@@ -20,16 +20,16 @@
             </div>
         }
     }
-    else if (searchTerm == "beyza")
-    {
-        <div class="beyzos">
-            <h2>Kendisi dünyanın en güzel tatlısı olduğu için ona erişim bulunmamaktadır.</h2>
-        </div>
-    }
-    else
-    {
-        <div class="card2">
-            <h2>Sonuç bulunamadı.</h2>
-        </div>
-    }
-</div>
+    else if (searchTerm?.ToLower() == "beyza")
+        {
+            <div class="beyzos">
+                <h2>Kendisi dünyanın en güzel tatlısı olduğu için ona erişim bulunmamaktadır.</h2>
+            </div>
+        }
+        else
+        {
+            <div class="card2">
+                <h2>Sonuç bulunamadı.</h2>
+            </div>
+        }
+    </div>
